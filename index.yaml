@@ -3,6 +3,33 @@ entries:
   statusbay-helm:
   - apiVersion: v2
     appVersion: 0.1.6
+    created: "2024-06-11T14:21:17.574261737Z"
+    description: Kubernetes deployment visibility
+    digest: f28b6c509612d445c49508e20a591ecf2b701f06d34bb94c5cec62a1d99a1e29
+    home: statusbay.io
+    icon: https://github.com/similarweb/statusbay/raw/master/docs/images/logo.png
+    keywords:
+    - kubernetes
+    - deployment
+    - visibility
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: elad.kaplan@similarweb.com
+      name: Elad Kaplan
+    - email: isan.rivkin@similarweb.com
+      name: Isan Rivkin
+    - email: or.tzabary@similarweb.com
+      name: Or Tzabary
+    - email: costyar@similarweb.com
+      name: Costya Regev
+    name: statusbay-helm
+    sources:
+    - https://github.com/similarweb/statusbay
+    urls:
+    - https://github.com/mmolnar/statusbay-helm/releases/download/statusbay-helm-0.1.4/statusbay-helm-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.1.6
     created: "2024-06-11T14:19:00.459330101Z"
     description: Kubernetes deployment visibility
     digest: 0de66b6db7b11c50ccee3121f56a3a5e990461dfe14215b79aeb60077dcbff2f
@@ -28,4 +55,4 @@ entries:
     urls:
     - https://github.com/mmolnar/statusbay-helm/releases/download/statusbay-helm-0.1.3/statusbay-helm-0.1.3.tgz
     version: 0.1.3
-generated: "2024-06-11T14:19:00.459340801Z"
+generated: "2024-06-11T14:21:17.574275213Z"
